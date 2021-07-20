@@ -11,6 +11,6 @@ dependencies {
     implementation(
         group = "com.github.kepocnhh",
         name = "KotlinExtension.GradleUtil",
-        version = "0.0.1-SNAPSHOT"
+        version = "0.0.2-SNAPSHOT"
     )
 }

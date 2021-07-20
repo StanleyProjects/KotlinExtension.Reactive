@@ -4,4 +4,13 @@ plugins {
     apply(P.kotlinJvm)
 }
 
-project.version = "0.0.1"
+project.version = Version.name
+
+dependencies {
+    testImplementation(D.jupiterApi)
+    testRuntimeOnly(D.jupiterEngine)
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
